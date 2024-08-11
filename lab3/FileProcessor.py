@@ -22,6 +22,7 @@ def process_frequency_table(table_input: TextIO):
         if temp_letter and temp_freq:
             frequency_list.append((temp_letter, int(temp_freq)))
 
+        frequency_list.sort()
 
 
 

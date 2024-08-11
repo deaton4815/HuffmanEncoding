@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Reading in frequency table">
-      <change afterPath="$PROJECT_DIR$/lab3/CharacterEvaluator.py" afterDir="false" />
+    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Creation of frequency table list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/FileProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/FileProcessor.py" afterDir="false" />
     </list>
@@ -113,13 +112,22 @@
       <option name="project" value="LOCAL" />
       <updated>1723392168256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creation of frequency table list">
+      <option name="closed" value="true" />
+      <created>1723393736095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723393736095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Startup" />
     <MESSAGE value="Reading in frequency table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading in frequency table" />
+    <MESSAGE value="Creation of frequency table list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of frequency table list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

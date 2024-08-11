@@ -1,5 +1,5 @@
 from typing import TextIO
-
+from lab3.FrequencyTable import FrequencyTableQueue
 
 def process_frequency_table(table_input: TextIO):
     frequency_list = []
@@ -22,7 +22,7 @@ def process_frequency_table(table_input: TextIO):
         if temp_letter and temp_freq:
             frequency_list.append((temp_letter, int(temp_freq)))
 
-        frequency_list.sort()
+    huffman_queue = FrequencyTableQueue(frequency_list)
 
 
 

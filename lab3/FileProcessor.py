@@ -2,11 +2,26 @@ from typing import TextIO
 
 
 def process_frequency_table(table_input: TextIO):
-    freq_table = []
+    frequency_list = []
 
     while True:
-        next_line = table_input.readline()
-        if not next_line:
+        line = table_input.readline()
+        if not line:
             break
-        next_line = next_line.strip()
+        line = line.strip()
+
+        temp_letter = str()
+        temp_freq = str()
+        for char in line:
+
+            if char.isalpha():
+                temp_letter = char
+            elif char.isdigit():
+                temp_freq += char
+
+        if temp_letter and temp_freq:
+            frequency_list.append((temp_letter, int(temp_freq)))
+
+
+
 

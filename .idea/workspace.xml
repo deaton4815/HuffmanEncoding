@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Startup">
+    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Reading in frequency table">
+      <change afterPath="$PROJECT_DIR$/lab3/CharacterEvaluator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/FileProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/FileProcessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +44,13 @@
   "keyToString": {
     "Python.lab_3.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/phili/Documents/Hopkins/2024_02/605_202/Lab 3/Lab3"
+    "last_opened_file_path": "C:/Users/phili/Documents/Hopkins/2024_02/605_202/Lab 3/Lab3/lab3"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\lab3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\Resources" />
       <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\lab3" />
@@ -102,11 +105,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723391293693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reading in frequency table">
+      <option name="closed" value="true" />
+      <created>1723392168256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723392168256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Startup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Startup" />
+    <MESSAGE value="Reading in frequency table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading in frequency table" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lab3/FileProcessor.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

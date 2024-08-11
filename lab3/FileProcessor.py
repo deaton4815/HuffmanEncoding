@@ -1,5 +1,4 @@
 from typing import TextIO
-from PriorityQueue import PriorityQueue
 
 
 def process_frequency_table(table_input: TextIO):
@@ -7,8 +6,7 @@ def process_frequency_table(table_input: TextIO):
 
     while True:
         next_line = table_input.readline()
-
         if not next_line:
             break
+        next_line = next_line.strip()
 
-    print("\nUnmodified line: " + next_line + "\nStripped line: " + next_line.strip())

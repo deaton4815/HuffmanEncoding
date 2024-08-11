@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Comparison function">
+    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Initialization and sorting of queue with a comparision key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/FileProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/FileProcessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/FrequencyTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/FrequencyTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723396131613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initialization and sorting of queue with a comparision key">
+      <option name="closed" value="true" />
+      <created>1723398027380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723398027380</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,20 +153,16 @@
     <MESSAGE value="Creation of frequency table list" />
     <MESSAGE value="Initialization of frequency table queue and node class" />
     <MESSAGE value="Comparison function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparison function" />
+    <MESSAGE value="Initialization and sorting of queue with a comparision key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization and sorting of queue with a comparision key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lab3/FrequencyTable.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lab3/FrequencyTable.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="14" />
+          <line>32</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

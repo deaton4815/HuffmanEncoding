@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/ClearText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Encoded.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/FreqTable.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/FileProcessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/__main__.py" afterDir="false" />
+    <list default="true" id="c1e4d192-99b9-461d-861f-b167be8a2652" name="Changes" comment="Encoding">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/ClearText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Encoded.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/FreqTable.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/FileProcessor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/FrequencyTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/HuffmanEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/__main__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +30,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kWD4tJCSGvCIyVPiemoeIP3Im8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,11 +48,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.lab_3.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/phili/Documents/Hopkins/2024_02/605_202/Lab 3/Lab3/lab3"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\Resources" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\lab3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3" />
+      <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\lab3" />
+      <recent name="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3\Resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="lab_3" type="PythonConfigurationType" factoryName="Python">
+      <module name="Lab3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (Lab3)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\phili\Documents\Hopkins\2024_02\605_202\Lab 3\Lab3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="lab3" />
+      <option name="PARAMETERS" value="Resources\FreqTable.txt Resources\ClearText.txt Resources\Encoded.txt Resources\Output.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -66,6 +106,93 @@
       <option name="presentableId" value="Default" />
       <updated>1723390250560</updated>
     </task>
+    <task id="LOCAL-00001" summary="Startup">
+      <option name="closed" value="true" />
+      <created>1723391293693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723391293693</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Reading in frequency table">
+      <option name="closed" value="true" />
+      <created>1723392168256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723392168256</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creation of frequency table list">
+      <option name="closed" value="true" />
+      <created>1723393736095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723393736095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialization of frequency table queue and node class">
+      <option name="closed" value="true" />
+      <created>1723394475008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723394475008</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Comparison function">
+      <option name="closed" value="true" />
+      <created>1723396131613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723396131613</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initialization and sorting of queue with a comparision key">
+      <option name="closed" value="true" />
+      <created>1723398027380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723398027380</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Huffman tree creation">
+      <option name="closed" value="true" />
+      <created>1723399292081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723399292081</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Encoding">
+      <option name="closed" value="true" />
+      <created>1723433158031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723433158031</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Startup" />
+    <MESSAGE value="Reading in frequency table" />
+    <MESSAGE value="Creation of frequency table list" />
+    <MESSAGE value="Initialization of frequency table queue and node class" />
+    <MESSAGE value="Comparison function" />
+    <MESSAGE value="Initialization and sorting of queue with a comparision key" />
+    <MESSAGE value="Huffman tree creation" />
+    <MESSAGE value="Encoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encoding" />
   </component>
 </project>
